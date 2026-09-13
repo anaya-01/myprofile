@@ -416,7 +416,7 @@ export function Volunteering() {
    are on: Responses -> three dots -> "Get email notifications for new
    responses". Without that, submissions arrive silently. */
 
-const GOOGLE_FORM_URL = "https://forms.gle/N6aVFNCQiWWX1ZRN8";
+const GOOGLE_FORM_URL = "https://forms.gle/3hi5tqrZLfjw8uvz9";
 
 function ContactForm() {
   return (
