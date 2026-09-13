@@ -46,8 +46,8 @@ const ConnectPanel = () => (
     <div className="connect">
       <h2 className="connect-title">Let's Connect</h2>
       <p>
-        For research collaborations, mentorship, or opportunities — or just to talk about
-        machine learning, astronomy, or getting more girls into STEM — I'd love to hear from you.
+        For research collaborations, mentorship, or opportunities, or just to talk about
+        machine learning, astronomy, or getting more girls into STEM, I'd love to hear from you.
       </p>
       <div className="cta-row">
         <Link className="btn btn-primary" to="/contact">Get in Touch <Arrow /></Link>
@@ -76,7 +76,7 @@ const ResearchCard = ({ r }) => (
 export function Home() {
   usePageMeta(
     `${SITE} | ML Research · Computer Vision · STEM Leadership`,
-    "High school researcher applying machine learning to real-world science — image-derived disease severity analysis, hyperlocal air quality mapping, and founder of HERizon."
+    "High school researcher applying machine learning to real-world science - image-derived disease severity analysis, hyperlocal air quality mapping, and founder of HERizon."
   );
   return (
     <>
