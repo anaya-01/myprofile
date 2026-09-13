@@ -10,8 +10,8 @@ export const PROFILE = {
   tagline: "Applying ML to real-world science — not just to classify, but to measure.",
   location: "",
   email: "",
-  photo: "",
-  aboutPhoto: "",
+  photo: "/photo.jpg",
+  aboutPhoto: "/aboutPhoto.jpg",
   bio: [
     "I'm a Grade 12 student working at the intersection of machine learning, physics, and real-world measurement. My research applies computer vision to agricultural disease monitoring — extending a disease-classification model into an image-analysis framework that produces quantitative severity estimates, not just category labels.",
     "Beyond research, I build things that make learning and information more accessible: a tutoring platform connecting underprivileged students with volunteers, a real-time chord classifier for beginner guitarists, and a hyperlocal air quality network that surfaces pollution data conventional stations miss.",
