@@ -428,6 +428,10 @@ export const FOOTER_NAV = [
   { label: "About", to: "/about" },
 ];
 
-export const FOOTER_PROFILES = Object.entries(PROFILE.socials)
-  .filter(([, url]) => url)
-  .map(([label, url]) => ({ label, url }));
+export const FOOTER_PROFILES = [
+  { label: "Blog", url: PROFILE.socials.Blog },
+  { label: "HERizon", url: PROFILE.socials.HERizon },
+  { label: "Schoolhouse", url: PROFILE.socials.Schoolhouse },
+  { label: "LinkedIn", url: PROFILE.socials.LinkedIn },
+  { label: "GitHub", url: PROFILE.socials.GitHub },
+];
