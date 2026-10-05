@@ -7,9 +7,9 @@ export const PROFILE = {
   first: "Anaya",
   last: "Jain",
   fullName: "Anaya Jain",
-  tagline: "Applying ML to real-world science — not just to classify, but to measure.",
+  tagline: "Applying ML to real-world science - not just to classify, but to measure.",
   location: "",
-  email: "",
+  email: "anaya.jain0101@gmail.com",
   photo: "/photo.jpg",
   aboutPhoto: "/aboutPhoto.jpg",
   bio: [
@@ -18,10 +18,11 @@ export const PROFILE = {
     "I founded HERizon to bring more girls into STEM through mentorship and community, and I tutor on Schoolhouse.world. What connects all of it is a belief that technology matters most when it helps people make better decisions.",
   ],
   socials: {
-    github: "",     // ← add if you have one; the Contact card is hidden while empty
-    scholar: "",
-    linkedin: "",   // ← add if you have one; the Contact card is hidden while empty
-    twitter: "",
+    Blog: "https://lifetide01.wordpress.com/",     // ← add if you have one; the Contact card is hidden while empty
+    HERizon: "https://herizonadmin.wixsite.com/herizon",
+    Schoolhouse: "https://schoolhouse.world/portfolio/85acb584-0628-4fa3-bb34-b6426b7d18dc",   // ← add if you have one; the Contact card is hidden while empty
+    LinkedIn: "https://www.linkedin.com/in/anaya-jain0101/",
+    GitHub: "https://github.com/anaya-01",
   },
   cv: "/Anaya_Jain_CV.pdf",
 };
@@ -427,4 +428,6 @@ export const FOOTER_NAV = [
   { label: "About", to: "/about" },
 ];
 
-export const FOOTER_PROFILES = [];
+export const FOOTER_PROFILES = Object.entries(PROFILE.socials)
+  .filter(([, url]) => url)
+  .map(([label, url]) => ({ label, url }));
