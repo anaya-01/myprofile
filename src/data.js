@@ -18,11 +18,11 @@ export const PROFILE = {
     "I founded HERizon to bring more girls into STEM through mentorship and community, and I tutor on Schoolhouse.world. What connects all of it is a belief that technology matters most when it helps people make better decisions.",
   ],
   socials: {
-    Blog: "https://lifetide01.wordpress.com/",     // ← add if you have one; the Contact card is hidden while empty
-    HERizon: "https://herizonadmin.wixsite.com/herizon",
-    Schoolhouse: "https://schoolhouse.world/portfolio/85acb584-0628-4fa3-bb34-b6426b7d18dc",   // ← add if you have one; the Contact card is hidden while empty
-    LinkedIn: "https://www.linkedin.com/in/anaya-jain0101/",
-    GitHub: "https://github.com/anaya-01",
+    blog: "https://lifetide01.wordpress.com/",     // ← add if you have one; the Contact card is hidden while empty
+    herizon: "https://herizonadmin.wixsite.com/herizon",
+    schoolhouse: "https://schoolhouse.world/portfolio/85acb584-0628-4fa3-bb34-b6426b7d18dc",   // ← add if you have one; the Contact card is hidden while empty
+    linkedin: "https://www.linkedin.com/in/anaya-jain0101/",
+    github: "https://github.com/anaya-01",
   },
   cv: "/Anaya_Jain_CV.pdf",
 };
@@ -429,9 +429,9 @@ export const FOOTER_NAV = [
 ];
 
 export const FOOTER_PROFILES = [
-  { label: "Blog", url: PROFILE.socials.Blog },
-  { label: "HERizon", url: PROFILE.socials.HERizon },
-  { label: "Schoolhouse", url: PROFILE.socials.Schoolhouse },
-  { label: "LinkedIn", url: PROFILE.socials.LinkedIn },
-  { label: "GitHub", url: PROFILE.socials.GitHub },
+  { label: "Blog", to: "https://lifetide01.wordpress.com/" },
+  { label: "HERizon", to: "https://herizonadmin.wixsite.com/herizon" },
+  { label: "Schoolhouse", to: "https://schoolhouse.world/portfolio/85acb584-0628-4fa3-bb34-b6426b7d18dc" },
+  { label: "LinkedIn", to: "https://www.linkedin.com/in/anaya-jain0101/" },
+  { label: "GitHub", to: "https://github.com/anaya-01" },
 ];
