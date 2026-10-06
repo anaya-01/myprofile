@@ -119,7 +119,7 @@ export function Footer() {
           <div>
             <h5>Profiles</h5>
             {FOOTER_PROFILES.map((p) => (
-              <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer">
+              <a key={p.label} href={p.to} target="_blank" rel="noopener noreferrer">
                 {p.label} <ExternalIcon size={12} />
               </a>
             ))}
